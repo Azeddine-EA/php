@@ -1,0 +1,49 @@
+body{
+	font-family: Verdana;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(98, 71, 218, 0.877);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: rgba(32, 44, 48, 0.267);
+      }
+
+.menu a{
+	    display:block;                /* Transformation en block */
+		min-width: 120px;             /* Largeur minimale des liens */
+}
+
+h1{
+  color: rgba(84, 50, 139, 0.877);
+}
+
+#titre{
+  color: rgb(37, 73, 90);
+}
+
+.gauche{
+    float:left;
+  }
+  .clearB{
+    clear:both;
+  }
+  
